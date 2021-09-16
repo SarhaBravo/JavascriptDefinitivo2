@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.splide__slide {
+    background-color: #13c59d !important;
+    height: 200px;
+    width: 200px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 30px;
+}

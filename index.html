@@ -5,11 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavascriptDefinitivo2</title>
+    <link rel="stylesheet" href="./styles/splide.min.css">
     <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body>
-    <a href="https://www.google.com" id="enlace">Google</a>
-    <script src="./js/howler.min.js"></script>
-    <script src="./js/main.js"></script>
+    <div id="splide" class="splide">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide">Slide 01</li>
+                <li class="splide__slide">Slide 02</li>
+                <li class="splide__slide">Slide 03</li>
+            </ul>
+        </div>
+    </div>
+
+    <button id="playMusic">Play</button>
+    <button id="pauseMusic">Pause</button>
+    <script src="./scripts/howler.min.js"></script>
+    <script src="./scripts/splide.min.js"></script>
+    <script src="./scripts/main.js"></script>
 </body>
 </html>
